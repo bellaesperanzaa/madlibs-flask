@@ -3,11 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madlib</title>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="../static/styles/style.css">
 </head>
-    <div></div>
 
 <body>
-    
+    <div>
+        <form action="{{ url }}" method="POST">
+            <label for="Search Image"> Search Image:</label><br>
+            <input type="text" id="query" name="query" value=""><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
 </html>

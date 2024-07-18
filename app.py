@@ -10,7 +10,7 @@ def home():
 def madlib():
     if request.method=='POST':
         return f'Thanks for submitting the form {request.form["fname"]}!'
-    return render_template('madlib.html', signup=url_for('signup'))
+    return render_template('madlib.html', madlib=url_for('madlib'))
 
 
 @app.route('/complete')

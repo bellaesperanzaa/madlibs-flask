@@ -3,19 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madlibs</title>
+    <title>AB Madlib</title>
     <link rel="stylesheet" href="../static/styles/style.css">
 </head>
-<div>
-        <div>
-            <h1 align="center" style="background-color: rgb(236, 228, 204); font-style: italic;">
-            Madlibs</h1>
-        </div>
+
+<div id="flex2">
+    <h1 align="center" style="background-color: rgb(236, 228, 204); border-radius: 10px; font-style: italic;">
+    AB Madlib</h1>
 </div>
 
 <body align="center" style="background-color: brown; border-radius: 10px;">
-    <div>
-        
+    <div id="Ashley">
+        <form action="{{madlib}}" method="POST">
+
+            <label for="adjective1">Enter a adjective:</label><br>
+            <input required type="text" id="1" name="noun1" value=""><br>
+
+            <label for="noun1">Enter another noun:</label><br>
+            <input required type="text" id="noun1" name="noun1" value=""><br>
+
+            <label for="verb1"> Enter a verb(past tense)</label><br>
+            <input required type="text" id="verb1" name="verb1" value=""><br>
+
+            <label for="adverb1">Enter a adverb:</label><br>
+            <input required type="text" id="Adverb1" name="Adverb1" value=""><br>
+
+            <label for="adjective2">Enter a adjective:</label><br>
+            <input required type="text" id="adjective2" name="adjective" value=""><br>
+
+            <label for="noun2">Enter a noun:</label><br>
+            <input required type="text" id="2" name="noun2" value=""><br>
+
+            <label for="verb2">Enter a verb:</label><br>
+            <input required type="text" id="verb2" name="verb2" value=""><br>
+
+            <label for="place">Enter a place:</label><br>
+            <input required type="text" id="place" name="place" value=""><br>
+
+            <label for="plural noun">Enter a plural noun:</label><br>
+            <input required type="text" id="plural noun" name="plural noun" value=""><br>
+
+            <label for="emotion">Enter an emotion:</label><br>
+            <input required type="text" id="emotion" name="emotion" value=""><br>
+
+            <input type="submit">
+        </form>
+   </div>
+    
+    
+    
+    
+    
+    
+    <div 
+        align="center" style="background-color: rgb(236, 228, 204); border-radius: 10px">
+    </div>
+
     </div>
 </body>
     
